@@ -14,7 +14,7 @@ setuptools.setup(
     description="Indobenchmark toolkit for supporting IndoNLU and IndoNLG",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SamuelCahyawijaya/indobenchmark-toolkit",
+    url="https://github.com/Haruray/indobenchmark-toolkit",
     project_urls={
         "Bug Tracker": "https://github.com/SamuelCahyawijaya/indobenchmark-toolkit/issues",
     },
