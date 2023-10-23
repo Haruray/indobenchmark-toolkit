@@ -610,7 +610,7 @@ class IndoNLGTokenizer(PreTrainedTokenizer):
                 batch_outputs[key].append(value)
 
         return BatchEncoding(batch_outputs, tensor_type=return_tensors)
-    def save_vocabulary(self, save_directory): 
+    def save_vocabulary(self, save_directory, filename_prefix): 
          """ 
          Save the sentencepiece vocabulary (copy original file) and special tokens file to a directory. 
   
@@ -624,7 +624,7 @@ class IndoNLGTokenizer(PreTrainedTokenizer):
          if not os.path.isdir(save_directory): 
              logger.error("Vocabulary path ({}) should be a directory".format(save_directory)) 
              return 
-         out_vocab_file = os.path.join(save_directory, VOCAB_FILES_NAMES["vocab_file"]) 
+         out_vocab_file = os.path.join(filename_prefix+save_directory, VOCAB_FILES_NAMES["vocab_file"]) 
   
          if os.path.abspath(self.vocab_file) != os.path.abspath(out_vocab_file): 
              copyfile(self.vocab_file, out_vocab_file) 
