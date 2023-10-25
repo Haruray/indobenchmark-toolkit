@@ -1,4 +1,7 @@
 # Indobenchmark Toolkit
+## Haruray's note
+This is a fork that was made to quickly fix the issues of the current version of this repository to make it useable at the very least. This repo is functional for `transformers 4.21`.
+
 ![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/indobenchmark/indonlg/blob/master/LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 <b>Indobenchmark</b> are collections of Natural Language Understanding (IndoNLU) and Natural Language Generation (IndoNLG) resources for Bahasa Indonesia such as Institut Teknologi Bandung, Universitas Multimedia Nusantara, The Hong Kong University of Science and Technology, Universitas Indonesia, DeepMind, Gojek, and Prosa.AI.
